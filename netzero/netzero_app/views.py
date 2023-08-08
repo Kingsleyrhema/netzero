@@ -1,9 +1,7 @@
 from django.shortcuts import render
 from . models import Detail
-from django.core.mail import send_mail
-from django.conf import settings
 import smtplib
-import smtplib, ssl, getpass
+import smtplib, ssl
 from email.mime.text import MIMEText
 from django.contrib import messages
 from email.mime.multipart import MIMEMultipart
